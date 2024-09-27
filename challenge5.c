@@ -15,6 +15,7 @@ int main(){
     //demande de saisir un nombre a l'utilisateur
     printf("saisir la base et l'exposant : \n");
     scanf("%d %d",&base,&exposant);
+    
     for (i = 1; i <= exposant; i++)
     {
         puis = puis * base;
